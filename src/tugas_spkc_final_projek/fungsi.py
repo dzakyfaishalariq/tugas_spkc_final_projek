@@ -1,4 +1,6 @@
 import numpy as np
+
+
 class AHP:
     def __init__(self):
         self.CRITERIA = [
@@ -45,7 +47,7 @@ class AHP:
 
     def saw(self, X, w, types):
         """SAW: normalisasi linier lalu jumlah terbobot."""
-        m, n = X.shape
+        _, n = X.shape
         R = np.zeros_like(X)
         for j in range(n):
             if types[j] == "benefit":

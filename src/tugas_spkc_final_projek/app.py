@@ -1,8 +1,10 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
 import json
+
 import altair as alt
+import numpy as np
+import pandas as pd
+import streamlit as st
+
 from tugas_spkc_final_projek.fungsi import AHP
 
 my_fungsi = AHP()
