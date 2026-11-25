@@ -109,3 +109,5 @@ Pastikan struktur direktori menempatkan paket `tugas_spkc_final_projek` dan file
 streamlit run nama_file_utama.py
 
 ```
+
+DOI : [10.5281/zenodo.24544703](https://zenodo.org/records/24544703)
